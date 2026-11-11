@@ -23,9 +23,8 @@ In my case, the rate of correct -s in obligatory contexts (third-person verbs, p
    - unknown word → cloze card;
    - calque (word-for-word translation from your language) you couldn't fix → **translation** card.
 4. **Random number of errors per card**: 20% of cards have none, 40% one, 20% two, 10% three, 10% four. After each error you find, there is always a 50% chance that another one remains, so you can never stop looking early.
-5. **Two independent reviews** of every batch (a blind reviewer that doesn't see the answers, and one that checks the answers), then **your** review before import. AI-generated error cards often contain unintended mistakes; this step matters.
-6. **Back-translation** a few days later: you translate your own text back from your native language, to check that the natural phrasings stuck.
-7. **Measure on new texts only**: the rate of your "signature error" and calques per 100 words. Anki success rates don't count.
+5. **Back-translation** a few days later: you translate your own text back from your native language, to check that the natural phrasings stuck.
+6. **Measure on new texts only**: the rate of your "signature error" and calques per 100 words. Anki success rates don't count.
 
 ## How to use
 
