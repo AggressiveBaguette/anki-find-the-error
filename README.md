@@ -12,7 +12,7 @@ In my case, the rate of correct -s in obligatory contexts (third-person verbs, p
 |---|---|---|
 | [`prompt/`](prompt/) | A prompt to paste into **any AI** (ChatGPT, Claude, Gemini, Mistral…). It explains the method, asks you a few questions and guides you step by step. | Everyone |
 | [`claude-skill/`](claude-skill/) | A **Claude skill** that sets up a Claude Project running the whole method (your error list, measurements and back-translations stay in the Project, so nothing to copy-paste between chats). | Claude users |
-| [`decks/`](decks/) | **Chasse au -s (francophones)**: 200 ready-made cards on the -s (missing or extra), for French speakers learning English. | French speakers |
+| [`decks/`](decks/) | **Chasse au -s (francophones)**: ready-made cards on the -s (missing or extra), for French speakers learning English. Two levels: **easy** (200 short cards) and **standard** (200 longer paragraphs). | French speakers |
 
 ## The method in short
 
@@ -38,9 +38,16 @@ Open [`prompt/find-the-error-coach-prompt.md`](prompt/find-the-error-coach-promp
 4. Follow the checklist at the end: paste the Project instructions, add the generated documents to the Project, import the starter deck into Anki.
 5. Start a new chat in the Project and type **"topic"**, or paste something you wrote.
 
-### The -s deck (French speakers)
-Download [`decks/Chasse-au-s-francophones.apkg`](decks/Chasse-au-s-francophones.apkg) and open it with Anki (desktop, AnkiDroid or AnkiMobile). You can browse all the cards first in [`decks/Chasse-au-s-apercu.md`](decks/Chasse-au-s-apercu.md).
-- 200 coherent paragraphs, 300 errors, distribution 40/80/40/20/20 (0 to 4 errors per card), British English.
+### The -s decks (French speakers)
+Two levels, same error types. **Start with easy**; move to standard when easy feels too simple.
+
+| Deck | Cards | Download | Browse the cards |
+|---|---|---|---|
+| **Easy**: 1–3 short sentences, simple English | 200 | [`Chasse-au-s-francophones-easy.apkg`](decks/Chasse-au-s-francophones-easy.apkg) | [preview](decks/Chasse-au-s-easy-apercu.md) |
+| **Standard**: 3–5 sentence paragraphs, richer English | 200 | [`Chasse-au-s-francophones.apkg`](decks/Chasse-au-s-francophones.apkg) | [preview](decks/Chasse-au-s-apercu.md) |
+
+Open the `.apkg` with Anki (desktop, AnkiDroid or AnkiMobile).
+- Each deck: 300 errors, distribution 40/80/40/20/20 (0 to 4 errors per card), British English.
 - Error types taken from my own mistakes: missing third-person -s (including after *each / every / nobody / one of*, -ing subjects, long subjects, relative clauses, *if / when*), extra -s (plural subjects, after modals, *does / did*, *to*, *let / make*), missing plurals after numbers and quantifiers, extra -s on uncountables and adjectives (*informations*, *differents*, *a two-years contract*), *has / have*, *is / are*, *don't / doesn't*, possessives.
 - Tags `erreurs::N` (number of errors) and `type::…` if you want to filter.
 - Review: read the paragraph and say the corrected version **before** flipping. Press "Again" if you missed an error or corrected something that was right.
